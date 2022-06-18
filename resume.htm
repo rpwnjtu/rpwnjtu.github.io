@@ -1,0 +1,1377 @@
+<html>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+
+<script type="text/javascript" src="./js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+	$("#glbnav").click(function(){
+	$("#part1").show();
+	$("#part2").show();
+	$("#part3").show();
+	$("#part4").show();
+	$("#part5").show();
+	$("#part6").show();
+	});
+
+	$("#nav1").click(function(){
+	$("#part1").show();
+	$("#part2").hide();
+	$("#part3").hide();
+	$("#part4").hide();
+	$("#part5").hide();
+	$("#part6").hide();
+	});
+
+	$("#nav2").click(function(){
+	$("#part1").hide();
+	$("#part2").show();
+	$("#part3").hide();
+	$("#part4").hide();
+	$("#part5").hide();
+	$("#part6").hide();
+	});
+
+	$("#nav3").click(function(){
+	$("#part1").hide();
+	$("#part2").hide();
+	$("#part3").show();
+	$("#part4").hide();
+	$("#part5").hide();
+	$("#part6").hide();
+	});
+
+	$("#nav4").click(function(){
+	$("#part1").hide();
+	$("#part2").hide();
+	$("#part3").hide();
+	$("#part4").show();
+	$("#part5").hide();
+	$("#part6").hide();
+	});
+
+	$("#nav5").click(function(){
+	$("#part1").hide();
+	$("#part2").hide();
+	$("#part3").hide();
+	$("#part4").hide();
+	$("#part5").show();
+	$("#part6").hide();
+	});
+	
+	$("#nav6").click(function(){
+	$("#part1").hide();
+	$("#part2").hide();
+	$("#part3").hide();
+	$("#part4").hide();
+	$("#part5").hide();
+	$("#part6").show();
+	});
+});
+
+</script>
+
+<!-- 页面CSS定义 -->
+<style type="text/css">
+<!--
+
+/* 标记选择器 */
+body{
+	background-image:url(./image/bk.jpg);
+	background-repeat:repeat-x;
+	text-align:center;
+	font-family:verdana;
+	margin:0px;
+	padding:0px;
+}
+hr{
+	color:#97aaec;
+}
+a:link{
+	color:#0000FF;
+	text-decoration:none;
+}
+a:visited{
+	color:#9933FF;
+	text-decoration:none;
+}
+a:hover.menu{
+	color:#9933FF;
+	font-weight:bold;
+	text-decoration:underline;
+}
+a:hover.inside{
+	color:#9933FF;
+}
+ul{
+	font-size:13px;
+	line-height:30px;
+}
+ul.special{
+	font-size:13px;
+	line-height:30px;
+	list-style-type:none;
+}
+li.special{
+	padding-left:7px;
+	margin-left:-25px;
+}
+li.specialtemp{
+	background-image:url(./image/flytemp.jpg);
+	background-repeat:no-repeat;
+	background-position:0 7px;
+	padding-left:25px;
+	margin-left:-40px;
+}
+/* ID选择器 */
+#container{
+	position:relative;
+	margin:0 auto;
+	width:900px;
+	padding:0px
+}
+#glbnav{
+	background-image:url(./image/glbnav_background.gif);
+	background-repeat:repeat-x;
+	font-size:14px;
+	color:#9933FF;
+	font-weight:bold;
+	width:240px;
+	height:30px;
+	padding-top:5px;
+	padding-left:5px;
+	margin-bottom:1px;
+	cursor:pointer;
+}
+/* 类别选择器 */
+.chara1{
+	font-size:16px;
+	background-image:url(./image/glbnav_background.gif);
+	margin-bottom:5px;
+}
+.chara2{
+	vertical-align:top;	
+}
+.chara3{
+	background-image:url(./image/glbnav_background.gif);
+	background-repeat:repeat-x;
+	font-size:14px;
+	color:blue;
+	width:240px;
+	height:30px;
+	padding-top:5px;
+	padding-left:5px;
+	margin-bottom:1px;
+	cursor:pointer;
+}
+.chara4{
+	padding-left:10px;
+	vertical-align:top;
+}
+.chara5{
+	font-size:12px;
+	margin-bottom:30px;
+	text-decoration: underline;
+}
+.chara6{
+	font-size:18px;
+	color:blue;
+}
+.chara7{
+	font-size:13px;
+	font-weight:bold;
+}
+.chara8{
+	font-size:13px;
+	line-height:30px;
+}
+.footer{
+	background:url("./image/footer.jpg") repeat-x scroll 0 0px;
+	line-height:25px;
+	font-size:14px;
+	text-align:center;
+	border-top:2px solid #97aaec;
+}
+.date{
+	font-size:10px;
+	text-align:right;
+}
+-->
+</style>
+
+<title>Ruiping Wang's Home Page</title>
+
+</head>
+
+<body>
+
+<div id="container">
+
+<table border="0px" width="100%">
+	
+	<!-- 主页标题部分 -->
+	<tr>
+		<td>
+			<table>
+				<tr>
+					<td>
+						<span style="font-size:20px; color:white"><b>Ruiping Wang's Home Page</b></span>
+						<br><br>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	
+	<!-- 主页导航条部分 -->
+	<tr>
+		<td>
+			<table width="900px" height="30px" class="chara1">
+				<tr>
+					<td>
+						<a href="index.htm" class="menu">Home</a> | 
+						<a href="resume.htm" class="menu">Resume</a> | 
+						<a href="research.htm" class="menu">Research</a> | 
+						<a href="personal.htm" class="menu">Personal</a> | 
+						<a href="links.htm" class="menu">Links</a> |				
+						<a href="new.htm" class="menu">News</a>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	
+	<!-- 主页主体部分，分为左侧和右侧两块 -->
+	<tr>
+		<td>
+			<table border="0px" bgcolor="white">
+				<tr>
+				
+					<!-- 左侧导航部分 -->
+					<td width="240px" class="chara2">
+						<div class="chara3" id="glbnav">
+							<img src="image\link.gif">&nbsp;Full View
+						</div>
+						<div class="chara3" id="nav1">
+							<img src="image\link.gif">&nbsp;Education
+						</div>
+						<div class="chara3" id="nav2">
+							<img src="image\link.gif">&nbsp;Research Interests
+						</div>
+						<div class="chara3" id="nav3">
+							<img src="image\link.gif">&nbsp;Research Experience
+						</div>
+						<div class="chara3" id="nav4">
+							<img src="image\link.gif">&nbsp;Publications
+						</div>
+						<div class="chara3" id="nav5">
+							<img src="image\link.gif">&nbsp;Honors and Awards
+						</div>
+						<div class="chara3" id="nav6">
+							<img src="image\link.gif">&nbsp;Professional Activities
+						</div>
+
+					</td>
+
+					<!-- 右侧页面内容部分 -->
+					<td width="660px" class="chara4" bgcolor="#E9F1F5">
+					
+					<p class="chara5">
+						>>You are here: <b>Resume</b>&nbsp;[<a href="CV_RuipingWang.pdf" target="_blank" class="inside">PDF Version</a>]
+					</p>
+					
+					<!-- 教育背景 -->
+					<div id="part1">
+					<p class="chara6">
+						<img src="image\link.gif">&nbsp;Education
+					</p>
+					
+					<p class="chara7">
+						<u>Sep. 2003 - Jul. 2010</u>
+					</p>
+					
+					<p class="chara8">
+						<b>Institute of Computing Technology, Chinese Academy of Sciences</b>, Beijing, China
+					</p>
+
+					<ul>
+						<li class="special">
+							Ph.D., Computer Science and Technology
+						</li>
+							
+						<li class="special">
+							Dissertation: Manifold Learning and Its Application to Face Recognition
+						</li>
+
+						<li class="special">
+							Advisor: Prof. Wen Gao
+						</li>
+					</ul>
+					
+					<p class="chara7">
+						<u>Sep. 1999 - Jul. 2003</u>
+					</p>
+					
+					<p class="chara8">
+						<b>Beijing Jiaotong University</b>, Beijing, China
+					</p>
+					
+					<ul>
+						<li class="special">
+							B.S., Applied Mathematics
+						</li>	
+					</ul>
+
+					</div>
+					
+					<!-- 研究兴趣方向 -->
+					<div id="part2">
+					
+					<p class="chara6">
+						<img src="image\link.gif">&nbsp;Research Interests
+					</p>
+					
+					<p>
+
+					<ul>
+						<li class="special">
+							Machine Learning: Manifold Learning, Kernel Learning, Distance Metric Learning, etc.
+						</li>
+
+						<li class="special">
+							Computer Vision: Video-based Face Analysis, Image Retrieval, Visual Scene Understanding, etc.
+						</li>
+					</ul>
+
+					</p>
+					
+					</div>
+					
+					<!-- 研究经历 -->
+					<div id="part3">
+					
+					<p class="chara6">
+						<img src="image\link.gif">&nbsp;Research Experience
+					</p>
+
+					<p class="chara7">
+						<u>Jul. 2012 - Present</u>
+					</p>
+					
+					<p class="chara8">
+						<b>Institute of Computing Technology, Chinese Academy of Sciences</b>, Beijing, China
+					<br>
+						<i>Assistant/Associate Professor (2012-2017), Professor (2017-Present)</i>
+					</p>
+
+					<ul>
+						<li class="special">
+							Research topics: facial image attributes analysis (e.g. age estimation, expression analysis, and gender classification); face video analysis (e.g. video-based face recognition, video face retrieval); large scale visual recognition (e.g. image retrieval, object recognition, attribute learning, scene understanding).
+						</li>
+					</ul>
+					
+					<p class="chara7">
+						<u>Nov. 2010 - Oct. 2011</u>
+					</p>
+					
+					<p class="chara8">
+						<b>University of Maryland</b>, College Park, MD, USA
+					<br>
+						<i>Research Associate</i>
+					</p>
+
+					<ul>
+						<li class="special">
+							Research topics: face recognition from still images and from video.
+						</li>
+					</ul>
+
+					<p class="chara7">
+						<u>Jul. 2010 - Jun. 2012</u>
+					</p>
+					
+					<p class="chara8">
+						<b>Tsinghua University</b>, Beijing, China
+					<br>
+						<i>Postdoctoral Researcher</i>
+					</p>
+
+					<ul>
+						<li class="special">
+							Research topics: machine learning and its application in light field for multi-view stereo.	
+						</li>
+					</ul>
+
+					<p class="chara7">
+						<u>Jul. 2004 - Jun. 2010</u>
+					</p>
+					
+					<p class="chara8">
+						<b>Institute of Computing Technology, Chinese Academy of Sciences</b>, Beijing, China
+					<br>
+						<i>Research Assistant</i>
+					</p>
+					
+					<ul>
+						<li class="special">
+							Research topics: face detection, object and face recognition with image set, dimensionality reduction, manifold learning.
+						</li>
+					</ul>
+					
+					</div>
+
+					<!-- 20211005_#84_WACV22 -->
+					<div id="part4">
+					
+					<p class="chara6">
+						<img src="image\link.gif">&nbsp;Publications
+					</p>					
+
+					<p class="chara7">
+						2021
+					</p>
+
+					<p class="chara8">
+					<ul>
+						<li class="special">
+							Haomiao Liu, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “What is a Tabby? Interpretable Model Decisions by Learning Attribute-Based Classification Criteria,” <i>IEEE Transactions on Pattern Analysis and Machine Intelligence</i>, vol. 43, no. 5, pp. 1791–1807, May 2021.<a href="publications/What is a Tabby_Interpretable Model Decisions by Learning Attribute-Based Classification Criteria_PAMI2021.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+						
+						<li class="special">
+							Shishi Qiao, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Deep Video Code for Efficient Face Video Retrieval,” <i>Pattern Recognition</i>, vol. 113, pp. 1-11, May. 2021.<a href="publications/Deep Video Code for Efficient Face Video Retrieval_PR2021.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							Fengyuan Yang, <b>Ruiping Wang</b>, Xilin Chen, “SEGA: Semantic Guided Attention on Visual Prototype for Few-Shot Learning,” <i>IEEE Winter Conference of Applications on Computer Vision (WACV 2022)</i>, pp. 1056-1066, Waikoloa, HI, Jan. 4-8, 2022.<a href="publications/SEGA_Semantic Guided Attention on Visual Prototype for Few-Shot Learning_WACV2022.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="publications/SEGA_Semantic Guided Attention on Visual Prototype for Few-Shot Learning_WACV2022_supp.pdf" target="_blank" class="inside">Supplemental Material</a>] [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+
+						<li class="special">
+							Hui Nie, <b>Ruiping Wang</b>, Xilin Chen, “From Node to Graph: Joint Reasoning on Visual-Semantic Relational Graph for Zero-Shot Detection,” <i>IEEE Winter Conference of Applications on Computer Vision (WACV 2022)</i>, pp. 1109-1118, Waikoloa, HI, Jan. 4-8, 2022.<a href="publications/From Node to Graph_Joint Reasoning on Visual-Semantic Relational Graph for Zero-Shot Detection_WACV2022.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="publications/From Node to Graph_Joint Reasoning on Visual-Semantic Relational Graph for Zero-Shot Detection_WACV2022_supp.pdf" target="_blank" class="inside">Supplemental Material</a>] [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+
+						<li class="special">
+							Difei Gao, <b>Ruiping Wang</b>, Ziyi Bai, Xilin Chen, “Env-QA: A Video Question Answering Benchmark for Comprehensive Understanding of Dynamic Environments,” <i>18th IEEE International Conference on Computer Vision (ICCV 2021)</i>, pp. 1675-1685, Montreal, Canada, Oct. 11-17, 2021.<a href="publications/Env-QA_A Video Question Answering Benchmark for Comprehensive Understanding of Dynamic Environments_ICCV2021.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="publications/Env-QA_A Video Question Answering Benchmark for Comprehensive Understanding of Dynamic Environments_ICCV2021_supp.pdf" target="_blank" class="inside">Supplemental Material</a>] [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+
+						<li class="special">
+							Wenbin Wang, <b>Ruiping Wang</b>, Xilin Chen, “Topic Scene Graph Generation by Attention Distillation from Caption,” <i>18th IEEE International Conference on Computer Vision (ICCV 2021)</i>, pp. 15900-15910, Montreal, Canada, Oct. 11-17, 2021.<a href="publications/Topic Scene Graph Generation by Attention Distillation from Caption_ICCV2021.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="publications/Topic Scene Graph Generation by Attention Distillation from Caption_ICCV2021_supp.pdf" target="_blank" class="inside">Supplemental Material</a>] [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+						
+						<li class="special">
+							Jiwei Xiao, <b>Ruiping Wang</b>, Xilin Chen, “Holistic Pose Graph: Modeling Geometric Structure among Objects in a Scene using Graph Inference for 3D Object Prediction,” <i>18th IEEE International Conference on Computer Vision (ICCV 2021)</i>, pp. 12717–12726, Montreal, Canada, Oct. 11-17, 2021. (<b>Oral</b>)<a href="publications/Holistic Pose Graph_Modeling Geometric Structure among Objects in a Scene using Graph Inference for 3D Object Prediction_ICCV2021.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="publications/Holistic Pose Graph_Modeling Geometric Structure among Objects in a Scene using Graph Inference for 3D Object Prediction_ICCV2021_supp.pdf" target="_blank" class="inside">Supplemental Material</a>] [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+
+						<li class="special">
+							Ziyi Bai, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Local Feature Enhancement Network for Set-based Face Recognition,” <i>16th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2021)</i>, pp. 1-8, Jodhpur, India, Dec. 15-18, 2021.<a href="publications/Local Feature Enhancement Network for Set-based Face Recognition_FG2021.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							Sijin Wang, Ziwei Yao, <b>Ruiping Wang</b>, Zhongqin Wu, Xilin Chen, “FAIEr: Fidelity and Adequacy Ensured Image Caption Evaluation,” <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2021)</i>, pp. 14050–14059, June 19-25, 2021.<a href="publications/FAIEr_Fidelity and Adequacy Ensured Image Caption Evaluation_CVPR2021.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="publications/FAIEr_Fidelity and Adequacy Ensured Image Caption Evaluation_CVPR2021_supp.pdf" target="_blank" class="inside">Supplemental Material</a>] [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+
+						<li class="special">
+							Chen He, <b>Ruiping Wang</b>, Xilin Chen, “A Tale of Two CILs: The Connections Between Class Incremental Learning and Class Imbalanced Learning, and Beyond,” <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2021) Workshop on Continual Learning in Computer Vision (CLVision)</i>, pp. 3559–3569, June 19-25, 2021.<a href="publications/A Tale of Two CILs_The Connections Between Class Incremental Learning and Class Imbalanced Learning_and Beyond_CVPRW2021.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="publications/A Tale of Two CILs_The Connections Between Class Incremental Learning and Class Imbalanced Learning_and Beyond_CVPRW2021_supp.pdf" target="_blank" class="inside">Supplemental Material</a>] [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>] (<b>Best Paper Award</b>)
+						</li>
+					</ul>
+					</p>
+
+					<p class="chara7">
+						2020
+					</p>
+
+					<p class="chara8">
+					<ul>
+						<li class="special">
+							Haomiao Liu, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Learning Multifunctional Binary Codes for Personalized Image Retrieval,” <i>International Journal of Computer Vision</i>, vol. 128, no. 8, pp. 2223–2242, Sep. 2020.<a href="publications/Learning Multifunctional Binary Codes for Personalized Image Retrieval_IJCV2020.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							Difei Gao, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Learning to Recognize Visual Concepts for Visual Question Answering with Structural Label Space,” <i>IEEE Journal of Selected Topics in Signal Processing</i>, vol. 14, no. 3, pp. 494-505, Mar. 2020.<a href="publications/Learning to Recognize Visual Concepts for Visual Question Answering with Structural Label Space_JSTSP2020.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							Shishi Qiao, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Deep Heterogeneous Hashing for Face Video Retrieval,” <i>IEEE Transactions on Image Processing</i>, vol. 29, no. 1, pp. 1299-1312, Dec. 2020.<a href="publications/Deep Heterogeneous Hashing for Face Video Retrieval_TIP2020.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="publications/Deep Heterogeneous Hashing for Face Video Retrieval_TIP2020_supp.pdf" target="_blank" class="inside">Supplemental Material</a>] [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+						
+						<li class="special">
+							Ruikui Wang, Shishi Qiao, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Hybrid Video and Image Hashing for Robust Face Retrieval,” <i>15th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2020)</i>, pp. 168–175, Buenos Aires, Argentina, Nov. 16-20, 2020.<a href="publications/Hybrid Video and Image Hashing for Robust Face Retrieval_FG2020.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+
+						<li class="special">
+							Wenbin Wang, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Sketching Image Gist: Human-Mimetic Hierarchical Scene Graph Generation,” <i>16th European Conference on Computer Vision (ECCV 2020)</i>, LNCS 12358, pp. 222–239, Aug. 23-28, 2020.<a href="publications/Sketching Image Gist_Human-Mimetic Hierarchical Scene Graph Generation_ECCV2020.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="publications/Sketching Image Gist_Human-Mimetic Hierarchical Scene Graph Generation_ECCV2020_supp.pdf" target="_blank" class="inside">Supplemental Material</a>] [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+
+						<li class="special">
+							Difei Gao, Ke Li, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Multi-Modal Graph Neural Network for Joint Reasoning on Vision and Scene Text,” <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2020)</i>, pp. 12746–12756, Seattle, WA, June 14-19, 2020.<a href="publications/Multi-Modal Graph Neural Network for Joint Reasoning on Vision and Scene Text_CVPR2020.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="publications/Multi-Modal Graph Neural Network for Joint Reasoning on Vision and Scene Text_CVPR2020_supp.pdf" target="_blank" class="inside">Supplemental Material</a>] [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+
+						<li class="special">
+							Sijin Wang, <b>Ruiping Wang</b>, Ziwei Yao, Shiguang Shan, Xilin Chen, “Cross-modal Scene Graph Matching for Relationship-aware Image-Text Retrieval,” <i>IEEE Winter Conference of Applications on Computer Vision (WACV 2020)</i>, pp. 1508–1517, Aspen, CO, Mar. 2-5, 2020.<a href="publications/Cross-modal Scene Graph Matching for Relationship-aware Image-Text Retrieval_WACV2020.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="publications/Cross-modal Scene Graph Matching for Relationship-aware Image-Text Retrieval_WACV2020_supp.pdf" target="_blank" class="inside">Supplemental Material</a>] [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+
+						<li class="special">
+							Ruikui Wang, <b>Ruiping Wang</b>, Shishi Qiao, Shiguang Shan, Xilin Chen, “Deep Position-Aware Hashing for Semantic Continuous Image Retrieval,” <i>IEEE Winter Conference of Applications on Computer Vision (WACV 2020)</i>, pp. 2493–2502, Aspen, CO, Mar. 2-5, 2020.<a href="publications/Deep Position-Aware Hashing for Semantic Continuous Image Retrieval_WACV2020.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="publications/Deep Position-Aware Hashing for Semantic Continuous Image Retrieval_WACV2020_supp.pdf" target="_blank" class="inside">Supplemental Material</a>] [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+
+					</ul>
+					</p>
+
+					<p class="chara7">
+						2019
+					</p>
+
+					<p class="chara8">
+					<ul>
+						<li class="special">
+							Haomiao Liu, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Deep Supervised Hashing for Fast Image Retrieval,” <i>International Journal of Computer Vision</i>, vol. 127, no. 9, pp. 1217–1234, Sep. 2019.<a href="publications/Deep Supervised Hashing for Fast Image Retrieval_IJCV2019.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							Huajie Jiang, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Adaptive Metric Learning For Zero-Shot Recognition,” <i>IEEE Signal Processing Letters</i>, vol. 26, no. 9, pp. 1270-1274, Sep. 2019.<a href="publications/Adaptive Metric Learning For Zero-Shot Recognition_SPL2019.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							Haomiao Liu, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Learning to Hash with Discrete Optimization,” <i>Chinese Journal of Computers</i> (In Chinese), vol. 42, no. 5, pp. 1149–1160, May 2019.<a href="publications/Learning to Hash with Discrete Optimization_CJC2019.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							Huajie Jiang, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Transferable Contrastive Network for Generalized Zero-Shot Learning,” <i>17th IEEE International Conference on Computer Vision (ICCV 2019)</i>, pp. 9764-9773, Seoul, Korea, Oct. 27-Nov. 2, 2019.<a href="publications/Transferable Contrastive Network for Generalized Zero-Shot Learning_ICCV2019.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+
+						<li class="special">
+							Wenbin Wang, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Exploring Context and Visual Pattern of Relationship for Scene Graph Generation,” <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2019)</i>, pp. 8180-8189, Long Beach, CA, June 16-20, 2019.<a href="publications/Exploring Context and Visual Pattern of Relationship for Scene Graph Generation_CVPR2019.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="publications/Exploring Context and Visual Pattern of Relationship for Scene Graph Generation_CVPR2019_supp.pdf" target="_blank" class="inside">Supplemental Material</a>] [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+
+					</ul>
+					</p>
+
+					<p class="chara7">
+						2018
+					</p>
+
+					<p class="chara8">
+					<ul>
+						<li class="special">
+							Zhiwu Huang, <b>Ruiping Wang</b>, Shiguang Shan, Luc Van Gool, Xilin Chen, “Cross Euclidean-to-Riemannian Metric Learning with Application to Face Recognition from Video,” <i>IEEE Transactions on Pattern Analysis and Machine Intelligence</i>, vol. 40, no. 12, pp. 2827-2840, Dec. 2018.<a href="publications/Cross Euclidean-to-Riemannian Metric Learning with Application to Face Recognition from Video_PAMI2018.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+						
+						<li class="special">
+							Zhiwu Huang, <b>Ruiping Wang</b>, Xianqiu Li, Wenxian Liu, Shiguang Shan, Luc Van Gool, Xilin Chen, “Geometry-aware Similarity Learning on SPD Manifolds for Visual Recognition,” <i>IEEE Transactions on Circuits and Systems for Video Technology</i>, vol. 28, no. 10, pp. 2513-2523, Oct. 2018.<a href="publications/Geometry-aware Similarity Learning on SPD Manifolds for Visual Recognition_TCSVT2018.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+						
+						<li class="special">
+							Huajie Jiang, <b>Ruiping Wang</b>, Shiguang Shan, Yan Li, Haomiao Liu, Xilin Chen, “Attribute Annotation on Large Scale Image Database by Active Knowledge Transfer,” <i>Image and Vision Computing</i>, vol. 78, pp. 1-13, Oct. 2018.<a href="publications/Attribute Annotation on Large Scale Image Database by Active Knowledge Transfer_IVC2018.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							Yan Li, Shiguang Shan, <b>Ruiping Wang</b>, Zhen Cui, Xilin Chen, “Fusing Magnitude and Phase Features with Multiple Face Models for Robust Face Recognition,” <i>Frontiers of Computer Science</i>, vol. 12, no. 6, pp. 1173-1191, 2018.<a href="publications/Fusing Magnitude and Phase Features with Multiple Face Models for Robust Face Recognition_FCS2018.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							Wen Wang, <b>Ruiping Wang</b>, Zhiwu Huang, Shiguang Shan, Xilin Chen, “Discriminant Analysis on Riemannian Manifold of Gaussian Distributions for Face Recognition with Image Sets,” <i>IEEE Transactions on Image Processing</i>, vol. 27, no. 1, pp. 151-163, Jan. 2018.<a href="publications/Discriminant Analysis on Riemannian Manifold of Gaussian Distributions for Face Recognition with Image Sets_TIP2018.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="publications/Discriminant Analysis on Riemannian Manifold of Gaussian Distributions for Face Recognition with Image Sets_TIP2018_supp.pdf" target="_blank" class="inside">Supplemental Material</a>]
+						</li>
+
+						<li class="special">
+							Yirong Mao, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “COSONet: Compact Second-Order Network for Video Face Recognition,”  <i>14th Asian Conference on Computer Vision (ACCV 2018)</i>, LNCS 11363, pp. 51-67, Perth, Western Australia, Dec. 2-6, 2018. (<b>Oral</b>)<a href="publications/COSONet_Compact Second-Order Network for Video Face Recognition_ACCV2018.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+
+						<li class="special">
+							Huajie Jiang, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Learning Class Prototypes via Structure Alignment for Zero-Shot Recognition,” <i>15th European Conference on Computer Vision (ECCV 2018)</i>, LNCS 11214, pp. 121–138, Munich, Germany, Sep. 8-14, 2018.<a href="publications/Learning Class Prototypes via Structure Alignment for Zero-Shot Recognition_ECCV2018.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="publications/Learning Class Prototypes via Structure Alignment for Zero-Shot Recognition_ECCV2018_supp.pdf" target="_blank" class="inside">Supplemental Material</a>] [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+
+						<li class="special">
+							Chen He, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Exemplar-Supported Generative Reproduction for Class Incremental Learning,” <i>29th British Machine Vision Conference (BMVC 2018)</i>, Newcastle upon Tyne, UK, Sep. 3-6, 2018.<a href="publications/Exemplar-Supported Generative Reproduction for Class Incremental Learning_BMVC2018.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="publications/Exemplar-Supported Generative Reproduction for Class Incremental Learning_BMVC2018_supp.pdf" target="_blank" class="inside">Supplemental Material</a>] [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+						
+						<li class="special">
+							Yong Liu, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Structure Inference Net: Object Detection Using Scene-Level Context and Instance-Level Relationships,” <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2018)</i>, pp. 6985-6994, Salt Lake City, UT, June 18-22, 2018.<a href="publications/Structure Inference Net_Object Detection Using Scene-Level Context and Instance-Level Relationships_CVPR2018.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="publications/Structure Inference Net_Object Detection Using Scene-Level Context and Instance-Level Relationships_CVPR2018_supp.pdf" target="_blank" class="inside">Supplemental Material</a>] [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+					
+					</ul>
+					</p>
+
+					<p class="chara7">
+						2017
+					</p>
+
+					<p class="chara8">
+					<ul>
+						<li class="special">
+							Wen Wang, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Prototype Discriminative Learning for Image Set Classification,” <i>IEEE Signal Processing Letters</i>, vol. 24, no. 9, pp. 1318-1322, Sep. 2017.<a href="publications/Prototype Discriminative Learning for Image Set Classification_SPL2017.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="publications/Prototype Discriminative Learning for Image Set Classification_SPL2017_supp.pdf" target="_blank" class="inside">Supplemental Material</a>]
+						</li>
+
+						<li class="special">
+							Huajie Jiang, <b>Ruiping Wang</b>, Shiguang Shan, Yi Yang, Xilin Chen, “Learning Discriminative Latent Attributes for Zero-Shot Classification,” <i>16th IEEE International Conference on Computer Vision (ICCV 2017)</i>, pp. 4223-4232, Venice, Italy, Oct. 22-29, 2017.<a href="publications/Learning Discriminative Latent Attributes for Zero-Shot Classification_ICCV2017.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="publications/Learning Discriminative Latent Attributes for Zero-Shot Classification_ICCV2017_supp.pdf" target="_blank" class="inside">Supplemental Material</a>] [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+
+						<li class="special">
+							Difei Gao, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Visual Textbook Network: Watch Carefully before Answering Visual Questions,” <i>28th British Machine Vision Conference (BMVC 2017)</i>, London, UK, Sep. 4-7, 2017.<a href="publications/Visual Textbook Network_Watch Carefully before Answering Visual Questions_BMVC2017.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							Wen Wang, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Discriminative Covariance Oriented Representation Learning for Face Recognition with Image Sets,” <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2017)</i>, pp. 5749-5758, Honolulu, HI, July 21-26, 2017.<a href="publications/Discriminative Covariance Oriented Representation Learning for Face Recognition with Image Sets_CVPR2017.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="publications/Discriminative Covariance Oriented Representation Learning for Face Recognition with Image Sets_CVPR2017_supp.pdf" target="_blank" class="inside">Supplemental Material</a>] [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+
+						<li class="special">
+							Haomiao Liu, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Learning Multifunctional Binary Codes for Both Category and Attribute Oriented Retrieval Tasks,” <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2017)</i>, pp. 6259-6268, Honolulu, HI, July 21-26, 2017.<a href="publications/Learning Multifunctional Binary Codes for Both Category and Attribute Oriented Retrieval Tasks_CVPR2017.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="publications/Learning Multifunctional Binary Codes for Both Category and Attribute Oriented Retrieval Tasks_CVPR2017_supp.pdf" target="_blank" class="inside">Supplemental Material</a>] [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+					</ul>
+					</p>
+
+					<p class="chara7">
+						2016
+					</p>
+
+					<p class="chara8">
+					<ul>
+						<li class="special">
+							Yan Li, <b>Ruiping Wang</b>, Zhen Cui, Shiguang Shan, Xilin Chen, “Spatial Pyramid Covariance based Compact Video Code for Robust Face Retrieval in TV-series,” <i>IEEE Transactions on Image Processing</i>, vol. 25, no. 12, pp. 5905-5919, Dec. 2016.<a href="publications/Spatial Pyramid Covariance based Compact Video Code for Robust Face Retrieval in TV-series_TIP2016.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							Mengyi Liu, Shiguang Shan, <b>Ruiping Wang</b>, Xilin Chen, “Learning Expressionlets via Universal Manifold Model for Dynamic Facial Expression Recognition,” <i>IEEE Transactions on Image Processing</i>, vol. 25, no. 12, pp. 5920-5932, Dec. 2016.<a href="publications/Learning Expressionlets via Universal Manifold Model for Dynamic Facial Expression Recognition_TIP2016.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							Yue Deng, Feng Bao, Xuesong Deng, <b>Ruiping Wang</b>, Youyong Kong, Qionghai Dai, “Deep and Structured Robust Information Theoretic Learning for Image Analysis,” <i>IEEE Transactions on Image Processing</i>, vol. 25, no. 9, pp. 4209-4221, Sep. 2016.<a href="publications/Deep and Structured Robust Information Theoretic Learning for Image Analysis_TIP2016.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							Mengyi Liu, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Learning Prototypes and Similes on Grassmann Manifold for Spontaneous Expression Recognition,” <i>Computer Vision and Image Understanding</i>, vol. 147, pp. 95-101, Jun. 2016.<a href="publications/Learning Prototypes and Similes on Grassmann Manifold for Spontaneous Expression Recognition_CVIU2016.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							Mengyi Liu, <b>Ruiping Wang</b>, Shaoxin Li, Zhiwu Huang, Shiguang Shan, Xilin Chen, “Video Modeling and Learning on Riemannian Manifold for Emotion Recognition in the Wild,” <i>Journal on Multimodal User Interfaces</i>, vol. 10, no. 2, pp. 113-124, Jun. 2016.<a href="publications/Video Modeling and Learning on Riemannian Manifold for Emotion Recognition in the Wild_JMUI2016.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							Wen Wang, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Prototype Discriminative Learning for Face Image Set Classification,” <i>13th Asian Conference on Computer Vision (ACCV 2016)</i>, Part III, LNCS 10113, pp. 344-360, Nov. 20-24, 2016.<a href="publications/Prototype Discriminative Learning for Face Image Set Classification_ACCV2016.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+
+						<li class="special">
+							Shishi Qiao, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Deep Video Code for Efficient Face Video Retrieval,” <i>13th Asian Conference on Computer Vision (ACCV 2016)</i>, Part III, LNCS 10113, pp. 296-312, Nov. 20-24, 2016.<a href="publications/Deep Video Code for Efficient Face Video Retrieval_ACCV2016.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+
+						<li class="special">
+							Yuheng Lu, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Multiple-shot Person Re-identication via Riemannian Discriminative Learning,” <i>13th Asian Conference on Computer Vision (ACCV 2016) Workshop on Benchmark and Evaluation of Surveillance Task (BEST)</i>, ACCV Workshops (3), LNCS 10118, pp. 408-425, Nov. 20-24, 2016.<a href="publications/Multiple-shot Person Re-identication via Riemannian Discriminative Learning_ACCVW2016.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+
+						<li class="special">
+							Haomiao Liu, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Deep Supervised Hashing for Fast Image Retrieval,” <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2016)</i>, pp. 2064-2072, Las Vegas, NV, June 26-July 1, 2016.<a href="publications/Deep Supervised Hashing for Fast Image Retrieval_CVPR2016.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="publications/Deep Supervised Hashing for Fast Image Retrieval_CVPR2016_supp.pdf" target="_blank" class="inside">Supplemental Material</a>] [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+					</ul>
+					</p>
+
+					<p class="chara7">
+						2015
+					</p>
+
+					<p class="chara8">
+					<ul>
+						<li class="special">
+							Zhiwu Huang, Shiguang Shan, <b>Ruiping Wang</b>, Haihong Zhang, Shihong Lao, Alifu Kuerban, Xilin Chen, “A Benchmark and Comparative Study of Video-based Face Recognition on COX Face Database,” <i>IEEE Transactions on Image Processing</i>, vol. 24, no. 12, pp. 5967-5981, Dec. 2015.<a href="publications/A Benchmark and Comparative Study of Video-based Face Recognition on COX Face Database_TIP2015.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							Zhiwu Huang, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Face Recognition on Large-scale Video in the Wild with Hybrid Euclidean-and-Riemannian Metric Learning,” <i>Pattern Recognition</i>, vol. 48, no. 10, pp. 3113-3124, Oct. 2015.<a href="publications/Face Recognition on Large-scale Video in the Wild with Hybrid Euclidean-and-Riemannian Metric Learning_PR2015.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							Zhen Cui, Shiguang Shan, <b>Ruiping Wang</b>, Lei Zhang, Xilin Chen, “Sparsely Encoded Local Descriptor for Face Verification,” <i>NEUROCOMPUTING</i>, vol. 147, pp. 403-411, Jan. 2015.<a href="publications/Sparsely Encoded Local Descriptor for Face Verification_NECO2015.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							Yan Li, <b>Ruiping Wang</b>, Haomiao Liu, Huajie Jiang, Shiguang Shan, Xilin Chen, “Two Birds, One Stone: Jointly Learning Binary Code for Large-scale Face Image Retrieval and Attributes Prediction,” <i>15th IEEE International Conference on Computer Vision (ICCV 2015)</i>, pp. 3819-3827, Santiago, Chile, Dec. 11-18, 2015.<a href="publications/Two Birds, One Stone_Jointly Learning Binary Code for Large-scale Face Image Retrieval and Attributes Prediction_ICCV2015.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+
+						<li class="special">
+							Zhiwu Huang, <b>Ruiping Wang</b>, Shiguang Shan, Xianqiu Li, Xilin Chen, “Log-Euclidean Metric Learning on Symmetric Positive Definite Manifold with Application to Image Set Classification,” <i>The 32nd International Conference on Machine Learning (ICML 2015)</i>, pp. 720-729, Lille, France, July 6-11, 2015.<a href="publications/Log-Euclidean Metric Learning on Symmetric Positive Definite Manifold with Application to Image Set Classification_ICML2015.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+
+						<li class="special">
+							Zhiwu Huang, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Projection Metric Learning on Grassmann Manifold with Application to Video based Face Recognition,” <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2015)</i>, pp. 140-149, Boston, MA, June 7-12, 2015.<a href="publications/Projection Metric Learning on Grassmann Manifold with Application to Video based Face Recognition_CVPR2015.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+
+						<li class="special">
+							Yan Li, <b>Ruiping Wang</b>, Zhiwu Huang, Shiguang Shan, Xilin Chen, “Face Video Retrieval with Image Query via Hashing across Euclidean Space and Riemannian Manifold,” <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2015)</i>, pp. 4758-4767, Boston, MA, June 7-12, 2015.<a href="publications/Face Video Retrieval with Image Query via Hashing across Euclidean Space and Riemannian Manifold_CVPR2015.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+
+						<li class="special">
+							Wen Wang, <b>Ruiping Wang</b>, Zhiwu Huang, Shiguang Shan, Xilin Chen, “Discriminant Analysis on Riemannian Manifold of Gaussian Distributions for Face Recognition with Image Sets,” <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2015)</i>, pp. 2048-2057, Boston, MA, June 7-12, 2015.<a href="publications/Discriminant Analysis on Riemannian Manifold of Gaussian Distributions for Face Recognition with Image Sets_CVPR2015.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+
+						<li class="special">
+							Yan Li, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Hierarchical Hybrid Statistic based Video Binary Code and Its Application to Face Retrieval in TV-Series,” <i>11th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2015)</i>, Ljubljana, Slovenia, May 4-8, 2015. (<b>Oral</b>)<a href="publications/Hierarchical Hybrid Statistic based Video Binary Code and Its Application to Face Retrieval in TV-Series_FG2015.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							Wen Wang, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Probabilistic Nearest Neighbor Search for Robust Classification of Face Image Sets,” <i>11th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2015)</i>, Ljubljana, Slovenia, May 4-8, 2015.<a href="publications/Probabilistic Nearest Neighbor Search for Robust Classification of Face Image Sets_FG2015.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							J. Ross Beveridge, Hao Zhang, Bruce A. Draper, Patrick J. Flynn, Zhenhua Feng, Patrik Huber, Josef Kittler, Zhiwu Huang, Shaoxin Li, Yan Li, Meina Kan, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, Haoxiang Li, Gang Hua, Vitomir Struc, Janez Krizaj, Changxing Ding, Dacheng Tao, P. Jonathon Phillips, “Report on the FG 2015 Video Person Recognition Evaluation,” <i>11th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2015)</i>, Ljubljana, Slovenia, May 4-8, 2015. (<b>First Position Winner in FG2015 PaSC Challenge</b>)<a href="publications/Report on the FG 2015 Video Person Recognition Evaluation_FG2015.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+					</ul>
+					</p>
+
+					<p class="chara7">
+						2014
+					</p>
+
+					<p class="chara8">
+					<ul>
+						<li class="special">
+							Yangang Wang, <b>Ruiping Wang</b>, Qionghai Dai, “A Parametric Model for Describing the Correlation between Single Color Images and Depth Maps,” <i>IEEE Signal Processing Letters</i>, vol. 21, no. 7, pp. 800-803, July 2014.<a href="publications/A Parametric Model for Describing the Correlation between Single Color Images and Depth Maps_SPL2014.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							Kai Li, Qionghai Dai, <b>Ruiping Wang</b>, Yebin Liu, Feng Xu, Jue Wang, “A Data-driven Approach for Facial Expression Retargeting in Video,” <i>IEEE Transactions on Multimedia</i>, vol. 16, no. 2, pp. 299-310, Feb. 2014.<a href="publications/A Data-driven Approach for Facial Expression Retargeting in Video_TMM2014.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							Mengyi Liu, <b>Ruiping Wang</b>, Shaoxin Li, Shiguang Shan, Zhiwu Huang, Xilin Chen, “Combining Multiple Kernel Methods on Riemannian Manifold for Emotion Recognition in the Wild,” <i>16th ACM International Conference on Multimodal Interaction (ICMI 2014)</i>, pp. 494-501, Istanbul, Turkey, Nov. 12-16, 2014.<a href="publications/Combining Multiple Kernel Methods on Riemannian Manifold for Emotion Recognition in the Wild_ICMI2014.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>] [<a href="publications/EmotiW2014_Presentation.pdf" target="_blank" class="inside">Presentation</a>] (<b>First Position Winner Award in EmotiW2014 Challenge</b>)
+						</li>
+
+						<li class="special">
+							Zhiwu Huang, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Hybrid Euclidean-and-Riemannian Metric Learning for Image Set Classification,” <i>12th Asian Conference on Computer Vision (ACCV 2014)</i>, Part III, LNCS 9005, pp. 562–577, Singapore, Nov. 1-5, 2014.<a href="publications/Hybrid Euclidean-and-Riemannian Metric Learning for Image Set Classification_ACCV2014.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+
+						<li class="special">
+							Mengyi Liu, Shaoxin Li, Shiguang Shan, <b>Ruiping Wang</b>, Xilin Chen, “Deeply Learning Deformable Facial Action Parts Model for Dynamic Expression Analysis,” <i>12th Asian Conference on Computer Vision (ACCV 2014)</i>, Part IV, LNCS 9006, pp. 143–157, Singapore, Nov. 1-5, 2014.<a href="publications/Deeply Learning Deformable Facial Action Parts Model for Dynamic Expression Analysis_ACCV2014.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							Yan Li, <b>Ruiping Wang</b>, Zhen Cui, Shiguang Shan, Xilin Chen, “Compact Video Code and Its Application to Robust Face Retrieval in TV-Series,” <i>25th British Machine Vision Conference (BMVC 2014)</i>, Nottingham, UK, Sep. 1-5, 2014.<a href="publications/Compact Video Code and Its Application to Robust Face Retrieval in TV-Series_BMVC2014.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+
+						<li class="special">
+							Ronghang Hu, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Robust Head-shoulder Detection Using a Two-Stage Cascade Framework,” <i>22nd International Conference on Pattern Recognition (ICPR 2014)</i>, pp. 2796-2801, Stockholm, Sweden, August 24-28, 2014. (<b>Oral</b>)<a href="publications/Robust Head-shoulder Detection Using a Two-Stage Cascade Framework_ICPR2014.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							Zhiwu Huang, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, “Learning Euclidean-to-Riemannian Metric for Point-to-Set Classification,” <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2014)</i>, pp. 1677-1684, Columbus, Ohio, June 23-28, 2014. (<b>Oral</b>)<a href="publications/Learning Euclidean-to-Riemannian Metric for Point-to-Set Classification_CVPR2014.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+
+						<li class="special">
+							Mengyi Liu, Shiguang Shan, <b>Ruiping Wang</b>, Xilin Chen, “Learning Expressionlets on Spatio-Temporal Manifold for Dynamic Facial Expression Recognition,” <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2014)</i>, pp. 1749-1756, Columbus, Ohio, June 23-28, 2014.<a href="publications/Learning Expressionlets on Spatio-Temporal Manifold for Dynamic Facial Expression Recognition_CVPR2014.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>]
+						</li>
+					</ul>
+					</p>
+
+					<p class="chara7">
+						2013
+					</p>
+
+					<p class="chara8">
+					<ul>
+						<li class="special">
+							Mengyi Liu, <b>Ruiping Wang</b>, Zhiwu Huang, Shiguang Shan, Xilin Chen, “Partial Least Squares Regression on Grassmannian Manifold for Emotion Recognition,” <i>15th ACM International Conference on Multimodal Interaction (ICMI 2013)</i>, pp. 525-530, Sydney, Australia, Dec. 9-13, 2013.<a href="publications/Partial Least Squares Regression on Grassmannian Manifold for Emotion Recognition_ICMI2013.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="http://vipl.ict.ac.cn/resources/codes" target="_blank" class="inside">code</a>] [<a href="publications/EmotiW2013_Presentation.pdf" target="_blank" class="inside">Presentation</a>] (<b>Second Runner-Up Award in EmotiW2013 Challenge</b>)
+						</li>
+
+						<li class="special">
+							Zhiwu Huang, Xiaowei Zhao, Shiguang Shan, <b>Ruiping Wang</b>, Xilin Chen, “Coupling Alignments with Recognition for Still-to-Video Face Recognition,” <i>14th IEEE International Conference on Computer Vision (ICCV 2013)</i>, pp. 3296-3303, Sydney, Australia, Dec. 3-6, 2013.<a href="publications/Coupling Alignments with Recognition for Still-to-Video Face Recognition_ICCV2013.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							Hui Jin, <b>Ruiping Wang</b>, “Robust Image Set Classification Using Partial Least Squares,” <i>4th International Conference on Intelligence Science and Big Data Engineering (IScIDE 2013)</i>, pp. 200-207, Beijing, China, Jul. 31-Aug. 2, 2013.<a href="publications/Robust Image Set Classification Using Partial Least Squares_IScIDE2013.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+					</ul>
+					</p>
+
+					<p class="chara7">
+						Before 2012
+					</p>
+
+					<p class="chara8">
+					<ul>
+						<li class="special">
+							<b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, Qionghai Dai, Wen Gao, “Manifold-Manifold Distance and Its Application to Face Recognition with Image Sets,” <i>IEEE Transactions on Image Processing</i>, vol. 21, no. 10, pp. 4466-4479, Oct. 2012.<a href="publications/Manifold–Manifold Distance and Its Application to Face Recognition With Image Sets_TIP2012.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							Yue Deng, Qionghai Dai, <b>Ruiping Wang</b>, Zengke Zhang, “Commute Time Guided Transformation for Feature Extraction,” <i>Computer Vision and Image Understanding</i>, vol. 116, no. 4, pp. 473-483, 2012.<a href="publications/Commute Time Guided Transformation for Feature Extraction_CVIU2012.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							<b>Ruiping Wang</b>, Huimin Guo, Larry S. Davis, Qionghai Dai, “Covariance Discriminative Learning: A Natural and Efficient Approach to Image Set Classification,” <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2012)</i>, pp. 2496-2503, Providence, Rhode Island, June 16-21, 2012.<a href="publications/Covariance Discriminative Learning_A Natural and Efficient Approach to_CVPR2012.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="publications/CDL_Release_v1.0.rar" target="_blank" class="inside">code</a>]
+						</li>
+
+						<li class="special">
+							Huimin Guo, <b>Ruiping Wang</b>, Jonghyun Choi, Larry S. Davis, “Face Verification Using Sparse Representations,” <i>IEEE Computer Society Workshop on Biometrics (BIOM 2012, in conjunction with CVPR)</i>, pp. 37-44, Providence, Rhode Island, June 16-21, 2012.<a href="publications/Face Verification Using Sparse Representations_CVPRW2012.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							<b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, Jie Chen, Wen Gao, “Maximal Linear Embedding for Dimensionality Reduction,” <i>IEEE Transactions on Pattern Analysis and Machine Intelligence</i>, vol. 33, no. 9, pp. 1776-1792, Sep. 2011.<a href="publications/Maximal Linear Embedding for Dimensionality Reduction_PAMI2011.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							Kun Xu, Xiangyang Ji, <b>Ruiping Wang</b>, Qionghai Dai, “Parallel Implementation of Depth-Image-Based Rendering,” <i>International Conference on 3D Imaging (IC3D 2011)</i>.<a href="publications/Parallel Implementation of Depth-Image-Based Rendering_IC3D2011.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							Jie Chen, Xilin Chen, Jie Yang, Shiguang Shan, <b>Ruiping Wang</b>, Wen Gao, “Optimization of a Training Set For More Robust Face Detection,” <i>Pattern Recognition</i>, vol. 42, pp. 2828-2840, 2009.<a href="publications/Optimization of a Training Set For More Robust Face Detection_PR2009.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							<b>Ruiping Wang</b>, Xilin Chen, “Manifold Discriminant Analysis,” <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2009)</i>, pp. 429-436, Miami Beach, Florida, June 20-25, 2009.<a href="publications/Manifold Discriminant Analysis_CVPR2009.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a> [<a href="publications/MDA_Release_v2.0.rar" target="_blank" class="inside">code</a>] [<a href="publications/Honda_processed.rar" target="_blank" class="inside">Honda dataset</a>]
+						</li>
+
+						<li class="special">
+							<b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, Wen Gao, “Manifold-Manifold Distance with Application to Face Recognition based on Image Set,” <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2008)</i>, pp. 2940-2947, Anchorage, Alaska, June 24-26, 2008. <a href="publications/Manifold-Manifold Distance with Application to Face Recognition based on Image Set_CVPR2008.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+							[<a href="publications/MMD_CVPR2008.htm" target="_blank" class="inside">webpage</a>] [<a href="publications/MMD_Release_v2.0.rar" target="_blank" class="inside">code</a>] (<b>Best Student Poster Award Runner-up</b>)
+						</li>
+
+						<li class="special">
+							<b>Ruiping Wang</b>, Jie Chen, Shiguang Shan, Xilin Chen, Wen Gao, “Enhancing Training Set for Face Detection Based on SVM,” <i>Journal of Software</i> (In Chinese), vol. 19, no. 11, pp. 2921-2931, 2008.<a href="publications/Enhancing Training Set for Face Detection Based on SVM_JOS2008(In Chinese).pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							Jie Chen, <b>Ruiping Wang</b>, Shengye Yan, Shiguang Shan, Xilin Chen, Wen Gao, “Enhancing Human Face Detection by Resampling Examples Through Manifolds,” <i>IEEE Transactions on Systems, Man, and Cybernetics-Part A</i>, vol. 37, no. 6, pp. 1017-1028, 2007.<a href="publications/Enhancing Human Face Detection by Resampling Examples Through Manifolds_TSMC(A)2007.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							<b>Ruiping Wang</b>, Jie Chen, Shiguang Shan, Xilin Chen, Wen Gao, “Enhancing Training Set for Face Detection,” <i>Proceeding of International Conference on Pattern Recognition (ICPR 2006)</i>. vol. 3, pp. 477-480, Hong Kong, 2006.8.<a href="publications/Enhancing Training Set for Face Detection_ICPR2006.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							Jie Chen, <b>Ruiping Wang</b>, Shiguang Shan, Xilin Chen, Wen Gao, “ISOMAP Based on the Image Euclidean Distance,” <i>Proceeding of International Conference on Pattern Recognition (ICPR 2006)</i>. vol. 2, pp. 1110-1113, Hong Kong, 2006.8.<a href="publications/Isomap Based on the Image Euclidean Distance_ICPR2006.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							Jie Chen, <b>Ruiping Wang</b>, Shengye Yan, Shiguang Shan, Xilin Chen, Wen Gao, “How to Train a Classifier Based on the Huge Face Database,” <i>IEEE International Workshop on Analysis and Modeling of Faces and Gestures (AMFG 2005)</i>, LNCS 3723, pp. 84-95, 2005.<a href="publications/How to Train a Classifier Based on the Huge Face Database_AMFG2005.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+
+						<li class="special">
+							<b>Ruiping Wang</b>, Jie Chen, Shengye Yan, Wen Gao, “Face Detection based on the Manifold,” <i>Audio- and Video-based Biometric Person Authentication (AVBPA 2005)</i>, LNCS 3546, pp. 208-218, Springer-Verlag.<a href="publications/Face Detection Based on the Manifold_AVBPA2005.pdf" target="_blank"><img src="image\pdf.gif" border="0px"></a>
+						</li>
+					</ul>
+					</p>
+
+					</div>
+
+					<!-- 所获奖项 -->
+					<div id="part5">
+					
+					<p class="chara6">
+						<img src="image\link.gif">&nbsp;Honors and Awards
+					</p>
+
+					<p>
+
+					<ul class="special">
+
+						<li class="specialtemp">
+							Best Paper Award, IEEE CVPR 2021 Workshop on CLVISION 
+						</li>
+
+						<li class="specialtemp">
+							Winner Award (team leader) in CLVISION Challenge ("NI" Track), IEEE CVPR 2020
+						</li>
+
+						<li class="specialtemp">
+							Outstanding Reviewers, ECCV 2020
+						</li>
+
+						<li class="specialtemp">
+							Outstanding Reviewers, IEEE ICCV 2019
+						</li>
+
+						<li class="specialtemp">
+							Outstanding Reviewers (with special mention), IEEE CVPR 2019
+						</li>
+
+						<li class="specialtemp">
+							Outstanding Reviewer Award, IEEE FG 2019
+						</li>
+
+						<li class="specialtemp">
+							State Natural Science Award of China (Second Class), 2015
+						</li>
+
+						<li class="specialtemp">
+							CCF-Intel Young Faculty Researcher Program, 2015
+						</li>
+
+						<li class="specialtemp">
+							First Position Winner Award (team leader) in EmotiW Challenge, ACM ICMI 2014
+						</li>
+
+						<li class="specialtemp">
+							Youth Innovation Promotion Association, Chinese Academy of Sciences, 2014
+						</li>
+
+						<li class="specialtemp">
+							MSRA Visiting Young Faculty Program, 2014
+						</li>
+
+						<li class="specialtemp">
+							Second Runner-Up Award (team leader) in EmotiW Challenge, ACM ICMI 2013
+						</li>
+
+						<li class="specialtemp">
+							Best Reviewer Award, ACCV 2012
+						</li>
+
+						<li class="specialtemp">
+							100-Stars Academic Program, Institute of Computing Technology, 2012
+						</li>
+
+						<li class="specialtemp">
+							Excellent Doctoral Dissertation, Chinese Academy of Sciences, 2011
+						</li>
+
+						<li class="specialtemp">
+							Outstanding Graduates, Chinese Academy of Sciences, 2010
+						</li>
+
+						<li class="specialtemp">
+							ZhuLiYueHua Outstanding PhD Scholarship, Chinese Academy of Sciences, 2010
+						</li>
+
+						<li class="specialtemp">
+							Outstanding Students, Chinese Academy of Sciences, 2007-2009
+						</li>
+
+						<li class="specialtemp">
+							Academic Excellence Scholarship, Institute of Computing Technology, 2008
+						</li>
+
+						<li class="specialtemp">
+							Outstanding Students, Digital Media Research Center, 2006, 2008
+						</li>
+
+						<li class="specialtemp">
+							Best Student Poster Award Runner-up, IEEE CVPR 2008
+						</li>
+
+						<li class="specialtemp">
+							First Runner Up (leading team member) in Task 2, ACM KDD Cup 2006
+						</li>
+
+						<li class="specialtemp">
+							First Position (major team member), IAPR FVC 2006
+						</li>
+					</ul>
+
+					</p>
+
+					</div>
+
+
+					<!-- 参加活动 -->
+					<div id="part6">
+					
+					<p class="chara6">
+						<img src="image\link.gif">&nbsp;Professional Activities
+					</p>
+
+					<p class="chara7">
+						Journal Editor
+					</p>
+
+					<p>
+
+					<ul class="special">
+						<li class="specialtemp">
+							Associate Editor, Pattern Recognition (Elsevier), 2019 -
+						</li>
+
+						<li class="specialtemp">
+							Associate Editor, Neurocomputing (Elsevier), 2019 -
+						</li>
+
+						<li class="specialtemp">
+							Associate Editor, The Visual Computer (Springer), 2019 -
+						</li>
+
+						<li class="specialtemp">
+							Associate Editor, IEEE Biometrics Compendium, 2019 - 2020
+						</li>
+
+						<li class="specialtemp">
+							Guest Editor, Pattern Recognition, SI: Distance Metric Learning for PR, 2016-2017
+						</li>
+					</ul>
+
+					</p>
+
+					<p class="chara7">
+						Conference Organizer
+					</p>
+
+					<p>
+
+					<ul class="special">
+						<li class="specialtemp">
+							Area Chair, International Conference on Computer Vision (ICCV), 2021
+						</li>
+
+						<li class="specialtemp">
+							Area Chair, International Conference on Computer Vision and Pattern Recognition (CVPR), 2021, 2022
+						</li>
+
+						<li class="specialtemp">
+							Area Chair, European Conference on Computer Vision (ECCV), 2022
+						</li>
+
+						<li class="specialtemp">
+							Area Chair, IEEE Winter Conference on Applications of Computer Vision (WACV), 2018-2020, 2022
+						</li>
+
+						<li class="specialtemp">
+							Area Chair, Asian Conference on Computer Vision (ACCV), 2022
+						</li>
+
+						<li class="specialtemp">
+							Area Chair, International Conference on Pattern Recognition (ICPR), 2020
+						</li>
+
+						<li class="specialtemp">
+							Area Chair, IEEE/IAPR International Joint Conference on Biometrics (IJCB), 2020
+						</li>
+
+						<li class="specialtemp">
+							Area Chair, IEEE Conference on Automatic Face and Gesture Recognition (FG), 2021
+						</li>
+
+						<li class="specialtemp">
+							Area Chair, IEEE International Conference on Multimedia and Expo (ICME), 2019-2021
+						</li>
+
+						<li class="specialtemp">
+							Challenge Chair, IEEE International Conference on Advanced Video and Signal-based Surveillance (AVSS), 2021
+						</li>
+
+						<li class="specialtemp">
+							Tutorial Chair, IEEE International Conference on Visual Communications and Image Processing (VCIP), 2022
+						</li>
+
+						<li class="specialtemp">
+							Publication Chair, IEEE/IAPR International Joint Conference on Biometrics (IJCB), 2020
+						</li>
+
+						<li class="specialtemp">
+							Publication Chair, IEEE Conference on Automatic Face and Gesture Recognition (FG), 2018
+						</li>
+
+						<li class="specialtemp">
+							Publicity Chair, IAPR International Conference on Biometrics (ICB), 2019
+						</li>
+
+						<li class="specialtemp">
+							Senior PC member, AAAI Conference on Artificial Intelligence (AAAI), 2022
+						</li>
+
+						<li class="specialtemp">
+							Senior PC member, International Joint Conference on Artificial Intelligence (IJCAI), 2019
+						</li>
+
+					</ul>
+
+					</p>
+
+					<p class="chara7">
+						Tutorial Organizer
+					</p>
+
+					<p>
+
+					<ul class="special">
+						<li class="specialtemp">
+							Second- and Higher-order Representations in Computer Vision, at ICCV 2019
+						</li>
+
+						<li class="specialtemp">
+							Distance Metric Learning for Image and Video Understanding, at ICIP 2017
+						</li>
+
+						<li class="specialtemp">
+							Distance Metric Learning for Computer Vision, at ECCV 2016
+						</li>
+
+						<li class="specialtemp">
+							Distance Metric Learning for Visual Recognition, at CVPR 2015
+						</li>
+
+						<li class="specialtemp">
+							Metric Learning for Visual Recognition, at ACCV 2014
+						</li>
+
+					</ul>
+
+					</p>
+
+					<p class="chara7">
+						Workshop Organizer
+					</p>
+
+					<p>
+
+					<ul class="special">
+						<li class="specialtemp">
+							GigaVision: When Gigapixel Videography meets Computer Vision, at CVPR 2019
+						</li>
+						<li class="specialtemp">
+							Human Identification for Surveillance (HIS): Methods & Applications, at ACCV 2016
+						</li>
+					</ul>
+
+					</p>
+
+
+					<p class="chara7">
+						Journal Reviewer
+					</p>
+
+					<p>
+
+					<ul class="special">
+						<li class="specialtemp">
+							ACM Computing Surveys, Apr. 2016 -
+						</li>
+
+						<li class="specialtemp">
+							IEEE Trans. Pattern Analysis and Machine Intelligence (T-PAMI), Feb. 2010 -
+						</li>
+
+						<li class="specialtemp">
+							IEEE Trans. Image Processing (T-IP), Jan. 2012 -
+						</li>
+
+						<li class="specialtemp">
+							IEEE Trans. Neural Networks (T-NN), Mar. 2009 -
+						</li>
+
+						<li class="specialtemp">
+							IEEE Trans. Circuits and Systems for Video Technology (T-CSVT), Aug. 2013 -
+						</li>
+
+						<li class="specialtemp">
+							IEEE Trans. Multimedia (T-MM), Sep. 2014 -
+						</li>
+
+						<li class="specialtemp">
+							IEEE Trans. Parallel and Distributed Systems (T-PDS), Aug. 2014 -
+						</li>
+
+						<li class="specialtemp">
+							IEEE Trans. Cybernetics (T-CYB), Aug. 2015 -
+						</li>
+
+						<li class="specialtemp">
+							IEEE Trans. Systems, Man and Cybernetics: Systems (T-SMCA), Nov. 2015 -
+						</li>
+
+						<li class="specialtemp">
+							IEEE Trans. Information Forensics and Security (T-IFS), Feb. 2019 -
+						</li>
+
+						<li class="specialtemp">
+							IEEE Signal Processing Letters (SPL), Oct. 2012 -
+						</li>
+
+						<li class="specialtemp">
+							IEEE MultiMedia (MM), Nov. 2015 -
+						</li>
+
+						<li class="specialtemp">
+							International Journal of Computer Vision (IJCV), Dec. 2013 -
+						</li>
+
+						<li class="specialtemp">
+							International Journal of Automation and Computing (IJAC), Feb. 2014 -
+						</li>
+
+						<li class="specialtemp">
+							Machine Vision and Applications (MVA), Jul. 2014 -
+						</li>
+
+						<li class="specialtemp">
+							The Visual Computer (TVCJ), Oct. 2014 -
+						</li>
+
+						<li class="specialtemp">
+							Multimedia Tools and Applications (MTA), Jul. 2015 -
+						</li>
+
+						<li class="specialtemp">
+							Pattern Recognition (PR), Sep. 2014 -
+						</li>
+
+						<li class="specialtemp">
+							Pattern Recognition Letters (PRL), Oct. 2014 -
+						</li>
+
+						<li class="specialtemp">
+							Journal of Visual Communication and Image Representation (JVCIR), Aug. 2014 -
+						</li>
+
+						<li class="specialtemp">
+							Computer Vision and Image Understanding (CVIU), Oct. 2011 -
+						</li>
+
+						<li class="specialtemp">
+							Image and Vision Computing (IVC), Mar. 2016 -
+						</li>
+
+						<li class="specialtemp">
+							Neurocomputing, Jun. 2009 -
+						</li>
+
+						<li class="specialtemp">
+							Journal of Computer Science and Technology (JCST), Jan. 2011 -
+						</li>
+
+						<li class="specialtemp">
+							SPIE Journal of Electronic Imaging (JEI), Oct. 2014 -
+						</li>
+
+						<li class="specialtemp">
+							IET Computer Vision, Nov. 2014 -
+						</li>
+
+						<li class="specialtemp">
+							EURASIP Journal on Image and Video Processing, Sep. 2015 -
+						</li>
+
+						<li class="specialtemp">
+							Frontiers of Computer Science, Nov. 2016 -
+						</li>
+
+						<li class="specialtemp">
+							SCIENCE CHINA Information Sciences, Mar. 2017 -
+						</li>
+
+					</ul>
+
+					</p>
+
+					<p class="chara7">
+						Conference Reviewer/PC Member
+					</p>
+
+					<p>
+
+					<ul class="special">
+						<li class="specialtemp">
+							International Conference on Computer Vision (ICCV), 2011, 2013, 2015, 2017, 2019
+						</li>
+
+						<li class="specialtemp">
+							International Conference on Computer Vision and Pattern Recognition (CVPR), 2013-2020
+						</li>
+
+						<li class="specialtemp">
+							European Conference on Computer Vision (ECCV), 2012, 2014, 2018, 2020
+						</li>
+
+						<li class="specialtemp">
+							Neural Information Processing Systems (NeurIPS), 2020, 2021
+						</li>
+
+						<li class="specialtemp">
+							International Conference on Machine Learning (ICML), 2020, 2021
+						</li>
+
+						<li class="specialtemp">
+							International Conference on Learning Representations (ICLR), 2020
+						</li>
+
+						<li class="specialtemp">
+							Asian Conference on Computer Vision (ACCV), 2012, 2014, 2016, 2018, 2020
+						</li>
+
+						<li class="specialtemp">
+							British Machine Vision Conference (BMVC), 2017-2020
+						</li>
+
+						<li class="specialtemp">
+							International Joint Conference on Artificial Intelligence (IJCAI), 2017
+						</li>
+
+						<li class="specialtemp">
+							AAAI Conference on Artificial Intelligence (AAAI), 2019
+						</li>
+
+						<li class="specialtemp">
+							IEEE Winter Conference on Applications of Computer Vision (WACV), 2015-2018
+						</li>
+
+						<li class="specialtemp">
+							Int. Conference on Visual Communications and Image Processing (VCIP), 2015, 2016
+						</li>
+
+						<li class="specialtemp">
+							Int. Conf. on Automatic Face and Gesture Recognition (FG), 2013, 2017-2020
+						</li>
+
+						<li class="specialtemp">
+							IAPR International Conference on Biometrics (ICB), 2019
+						</li>
+
+						<li class="specialtemp">
+							International Conference on Pattern Recognition (ICPR), 2012, 2014, 2018
+						</li>
+
+						<li class="specialtemp">
+							International Conference on Multimedia and Expo (ICME), 2014-2018
+						</li>
+
+						<li class="specialtemp">
+							International Conf. on Acoustics, Speech, and Signal Processing (ICASSP), 2014-2018
+						</li>
+
+						<li class="specialtemp">
+							Int. Conf. on Digital Image Computing: Techniques and Applications (DICTA), 2014-2019
+						</li>
+
+						<li class="specialtemp">
+							Chinese Conference on Pattern Recognition (CCPR), 2012, 2016
+						</li>
+
+					</ul>
+
+					</p>
+
+					</div>
+					
+
+					</td>
+				
+				</tr>
+			</table>
+		</td>
+	</tr>
+	
+	<!-- 页面页脚部分 -->
+	<tr>
+		<td class="footer">
+			<div>
+				<a href="index.htm" class="menu">Home</a> | 
+				<a href="resume.htm" class="menu">Resume</a> |
+				<a href="research.htm" class="menu">Research</a> | 
+				<a href="personal.htm" class="menu">Personal</a> | 
+				<a href="links.htm" class="menu">Links</a> | 
+				<a href="new.htm" class="menu">News</a>
+				<br>
+				Copyright &copy; 2012-2021. All Rights Reserved.
+				<br>
+				Designed by Ruiping Wang
+			</div>
+			<div class="date">
+				Last Update: Feb. 16, 2022
+			</div>
+		</td>
+	</tr>
+
+</table>
+
+</div>
+
+</body>
+
+</html>
